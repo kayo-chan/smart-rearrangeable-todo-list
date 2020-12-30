@@ -1,0 +1,206 @@
+body {
+  background: rgb(179, 214, 247);
+  margin: 0 auto;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.form-design{
+  width: 45em;
+  border-radius: 10px;
+  text-align: center;
+  margin: 0em;
+  padding: 0em;
+}
+
+.enter-form{
+  border: transparent;
+  box-shadow: 0px 0px 10px #ffffff;
+  border-radius: 5px;
+  width: 50em;
+  height: 30px;
+  margin: 0em;
+  padding: 0em;
+  text-align: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  
+}
+
+.layout{
+  display: flex;
+  justify-content: space-between;
+  padding: 0em;
+  font-size: 1.2rem;
+
+}
+
+
+.days-req-length{
+  margin: 0.4em;
+  padding: 0em;
+}
+.todo-list {
+  /* background-color: white; */
+  background: rgb(179, 214, 247);
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px;
+}
+
+.checkbox{
+  box-shadow: 0px 0px 10px #ffffff;
+  border: white;
+}
+.btn-rank{
+  margin: 0.8em;
+  border: transparent;
+  border-radius:3px;
+  width: 100px;
+  height: 25px;
+  box-shadow: 0px 0px 10px #ffffff;
+  background-color: navy;
+  font: 1rem 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: white;
+}
+.todo-item {
+  display: flex;
+  justify-content: space-between;
+  border-radius: 5px;
+  margin:5px;
+  box-shadow: 0px 0px 5px gray;
+  align-items: center;
+  width: 100%;
+  border-bottom: 1px solid #cecece;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 1.2rem;
+  color: #333333;
+}
+
+.todo-item:nth-child(odd){
+  background: #f9f9f9;
+}
+
+.todo-item:nth-child(even){
+  background: rgb(191, 209, 230);
+  /* color: white; */
+}
+
+.btn-len{
+  width: 200px;
+  height: 50px;
+  font-size: large;
+}
+.add-task-bt{
+  margin: 0.5em;
+  border: transparent;
+  border-radius:3px;
+  background-color: navy;
+  box-shadow: 0px 0px 10px white;
+  color: white;
+  width: 300px;
+  height: 50px;
+  font: 1.2rem 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.todo-item-layout{
+  display: flex;
+  flex-direction: row;
+}
+
+.comment{
+  text-align: center;
+  font-size: 1.3rem;
+}
+input[type=checkbox] {
+  margin-right: 10px;
+  font-size: 30px;
+}
+
+input[type=checkbox]:focus {
+  outline: 0;
+}
+
+@media screen and (max-width: 600px) {
+
+  body {
+    margin: 0 auto;
+  }
+  
+  .form-design{
+    width: 100%;
+  }
+  
+  .enter-form{
+    border-radius: 5px;
+    width: 16em;
+    height: 30px;
+    
+  }
+  
+  .layout{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 1rem;
+    
+  }
+
+  .comment{
+    text-align: center;
+    font-size: 0.85rem;
+  }
+  
+  
+  .days-req-length{
+    margin: 0.5rem;
+  }
+  
+  .todo-item-layout{
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .checkbox{
+    box-shadow: 0px 0px 10px #ffffff;
+    border: white;
+  }
+  .btn-rank{
+    margin: 0.5em;
+    border-radius:3px;
+    width: 65px;
+    height: 25px;
+    font: 0.8rem ;
+  }
+  .todo-item {
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+    margin:5px;
+    font-weight: 100;
+    font-size: 1rem;
+    color: #333333;
+  }
+  
+  .todo-item:nth-child(odd){
+    background: #f9f9f9;
+  }
+  
+  .todo-item:nth-child(even){
+    background: rgb(191, 209, 230);
+    /* color: white; */
+  }
+  
+  .btn-len{
+    width: 150px;
+    height: 25px;
+    font-size: 1rem;
+  }
+  .add-task-bt{
+    margin: 0.1em;
+    border-radius:3px;
+    width: 100px;
+    height: 25px;
+    font-size: 1rem ;
+  }
+}
